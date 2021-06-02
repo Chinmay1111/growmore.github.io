@@ -1,0 +1,252 @@
+<!--Waves Container-->
+        <div>
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+          </svg>
+        </div>
+        <!--Waves end-->
+      </div>
+
+
+      <!-- Features -->
+      <section class="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="feature-item">
+                <div class="icon">
+                  <img src="images/features-icon-01.png" alt="">
+                </div>
+              
+
+
+
+              @media(max-width: 768px){
+    #wrapper .services{
+  grid-template-columns: 1fr;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="contact">
+  <div class="Contact Us">
+    <h2>Contact Us</h2>
+    <p>Let’s collaborate to take your business to the next level.</p>
+  </div>
+
+  <div class="container">
+    <div class="contactInfo">
+      <div class="box">
+        <div class="icon"><i class="fa fa-map-email" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>contact@growmore.com</p>
+           </div>
+          </div>
+
+          <div class="box">
+        <div class="icon"><i class="fa fa-map-phone" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>8928168182 / 9136823121</p>
+           </div>
+          </div>
+        </div>
+
+        <div class="contactForm">
+          <form>
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Full Name</span>
+            </div>
+
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span>Email</span>
+            </div>
+
+            <div class="inputBox">
+              <textarea required="required"></textarea>
+              <span>Type Your Message...</span>
+            </div>
+
+            <div class="inputBox">
+              <input type="submit" name="" value="Send">
+            </div>
+          </form>
+        </div>
+     </div>
+</section>
+
+
+
+
+
+
+
+  .contact{
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 65%;
+  left: 60%;  
+  transform: translate(-50%,-50%);
+  text-align: left;
+}
+
+.contact{
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+.contact .content{
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content{
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .content p{
+  font-weight: 300;
+  color: #fff;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container .contactInfo{
+  width: 50%
+  display:flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactInfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+  font-weight: 500;
+  color: #00bcd4;
+}
+
+.contactform{
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+
+.contactform h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactform .inputBox{
+  position: relative;
+  width: 100;
+  margin-top: 10px;
+}
+
+.contactform .inputBox input,
+.contactform .inputBox textarea{
+  width: 100;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactform .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactform .inputBox input:focus ~ span,
+.contactform .inputBox input:valid ~ span,
+.contactform .inputBox textarea:focus ~ span,
+.contactform .inputBox textarea:valid ~ span{
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+
+}
+
+.contactform .inputBox input[type="submit"] {
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}

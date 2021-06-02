@@ -1,0 +1,149 @@
+<section id="wrapper">
+	
+	<section id="service" class="service">
+	    <h3>What We Offer?</h3>
+
+	    <div class="service-content">
+	      <div class="box">
+	    	<div class="box-one">
+	    		<div class="services">
+	    			<div class="service-icon">
+	    				<img src="images/result.png">
+	    			</div>
+	    			<div class="service-content">
+	    				<h4 class="services-title">Actual Real Results</h4>
+	    				<p class="text">Search Engine optimization </p>
+	    			</div>
+	    		</div>
+
+	    		<div class="services">
+	    			<div class="service-icon">
+	    				<img src="images/records.png">
+	    			</div>
+	    			<div class="service-content">
+	    				<h4 class="services-title">Daily Tack Records</h4>
+	    				<p class="text">Search Engine optimization</p>
+	    			</div>
+	    		</div>
+
+	    		<div class="services">
+	    			<div class="service-icon">
+	    				<img src="images/dashboard.png">
+	    			</div>
+	    			<div class="service-content">
+	    				<h4 class="services-title">Easy Useful Dashboard</h4>
+	    				<p class="text">Search Engine optimization </p>
+	    			</div>
+	    		</div>	    		
+	    	</div>
+
+	    	<div class="box-one">
+	    		<div class="services">
+	    			<div class="service-icon">
+	    				<img src="images/audience.png">
+	    			</div>
+	    			<div class="service-content">
+	    				<h4 class="services-title">Organic Reach Audience</h4>
+	    				<p class="text">Search Engine optimization </p>
+	    			</div>
+	    		</div>
+
+	    		<div class="services">
+	    			<div class="service-icon">
+	    				<img src="images/campaigns.png">
+	    			</div>
+	    			<div class="service-content">
+	    				<h4 class="services-title">Content Marketing</h4>
+	    				<p class="text">Search Engine optimization</p>
+	    			</div>
+	    		</div>
+
+	    		<div class="services">
+	    			<div class="service-icon">
+	    				<img src="images/team.png">
+	    			</div>
+	    			<div class="service-content">
+	    				<h4 class="services-title">Awesome Support Team</h4>
+	    				<p class="text">Search Engine optimization </p>
+	    			</div>
+	    		</div>	    		
+	    	</div>
+         </div>
+
+	    	
+	    </div>
+
+
+
+	</section>
+
+#wrapper{
+	margin: 5rem 7rem 10rem 7rem;
+}
+
+.service{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+.service .service-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.service .service-content .box{
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.service .service-content .box .box-one{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
+
+
+.service .service-content .box .box-one .services{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 2rem;	
+}
+
+
+.service .service-content .box .box-one .services .service-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	text-align: justify;	
+}
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+Reach new audiences who may not seek out your product independently via social sharing, content referrals, organic search results, and press syndication
